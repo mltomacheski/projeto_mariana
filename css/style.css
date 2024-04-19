@@ -34,7 +34,7 @@ nav{
   width: 100%;
   z-index: 1;
   background-color: #fff;
-  border-botton: 1px solid #ccc
+  border-botton: 1px solid #ccc;
 }
 
 nav: after{
@@ -83,8 +83,8 @@ nav: after{
 }
 
 /*baner*/
-# main-banner{
-  background- color:red;
+#main-banner{
+  background-color:red;
   background: url(../img/banner6.jpg) no-repeat;
   background-size:cover;
   background-position:0 55%;
