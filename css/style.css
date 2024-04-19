@@ -114,5 +114,25 @@ nav: after{
   font-weight:300px;
 }
 
+/*fomulário*/
+#search-form input,
+ #search-form select{
+    background-color:#FFF;
+    border-radius:5px;
+    border-color:transparent;
+    padding:10px 20px;
+    font-size:18px;
+    margin:0 10px;
+  }
 
+#search-form input[type=submit]{
+  background-color:#3381F3;
+  text-transform:uppercase;
+  color:#FFF;
+  cursor:pointer;
+  transition:0.5s;
+}
 
+#search-form input[type=submit]:houver{
+  background-color:#2B79EB;
+}
