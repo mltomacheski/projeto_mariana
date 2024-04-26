@@ -1,62 +1,60 @@
-/*reset*/
-body {
+/reset/
+body{
   margin: 0;
 }
 
-/*geral*/
+/geal/
 html {
-  font-family: "Truculenta", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-h1, h2, h3, h4, h5, p, span {
+h1,h2,h3,h4,h5,p,span{
   margin: 0;
-  color: #666;
+  color:#0e0e0e;
 }
 
-.container {
+.container{
   max-width: 1920px;
   width: 100%;
 }
 
-/*header*/
+/hader/
 header{
-  position: relative;
-  top: 0;
+  position:relative;
+  top:0;
   height: auto;
   width: 100%;
 }
 
-/*navbar*/
+/navbar/
 nav{
   position: fixed;
   top: 0;
   height: 100px;
   width: 100%;
   z-index: 1;
-  background-color: #fff;
-  border-botton: 1px solid #ccc;
+  background-color: #FFF;
+  border-bottom: 1px solid #ccc;
 }
 
-nav: after{
+nav:after{
   clear: both;
-  content:"";
-  display: block;
-  height: 50px;
-  width: 50px;
+  content: "";
+  display:block;
   background-color: #000;
 }
 
 .nav-container{
-  max-width: 1200;
+  max-width: 1200px;
   position: relative;
   margin-right: auto;
   margin-left: auto;
 }
 
 #logo{
-  width: 50px;
-  height: 50px;
-  margin-top: 25px;
+  width: 105px;
+  height: 103px;
+  margin-top: 0px;
 }
 
 .nav-container ul{
@@ -78,61 +76,60 @@ nav: after{
   transition: .5s;
 }
 
-.nav-container li a: hover{
-  color: #3381F3;
+.nav-container li a:hover{
+  color: #11366d;
 }
 
-/*baner*/
+/banner/
 #main-banner{
-  background-color:red;
-  background: url(../img/banner6.jpg) no-repeat;
-  background-size:cover;
-  background-position:0 55%;
-  position:relative;
-  margin-top:100px;
+  background-color: red;
+  background: url() no-repeat;
+  background-size: cover;
+  background-position: 10 55%;
+  position: relative;
+  margin-top: 100px;
 }
-  
+
 #search-form{
-  position:relative;
-  width:80%;
-  margin-left:auto;
-  margin-right:auto;
-  
-  padding-top:15em;
-  padding-bottom:15em;
-  text-aling:center;
-  }
+  position: relative;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15em;
+  padding-bottom: 15em;
+  text-align: center;
+}
 
 #search-form h1{
-  font-size:40px;
-  }
+  font-size: 40px;
+}
 
 #search-form p{
-  margin-top:30px;
-  margin-botton:60px;
-  font-size:18px;
-  font-weight:300px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-size: 18px;
+  font-weight: 300;
 }
 
-/*fomulário*/
-#search-form input,
- #search-form select{
-    background-color:#FFF;
-    border-radius:5px;
-    border-color:transparent;
-    padding:10px 20px;
-    font-size:18px;
-    margin:0 10px;
-  }
+  /formúlario/
+
+#search-form input, #search form select{
+  background-color: #fff;
+  border-radius: 30px;
+  border-color: #d6cfcf8a;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 0 10px;
+}
 
 #search-form input[type=submit]{
-  background-color:#3381F3;
-  text-transform:uppercase;
-  color:#FFF;
-  cursor:pointer;
-  transition:0.5s;
+  background-color: #2e68b9;
+  text-transform: uppercase;
+  color: #FFF;
+  cursor: pointer;
+  transition: 0.2s;
 }
 
-#search-form input[type=submit]:houver{
-  background-color:#2B79EB;
+#search-form input[type=submit]:hover{
+  background-color: #17263f;
 }
