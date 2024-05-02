@@ -83,7 +83,7 @@ nav:after{
 /banner/
 #main-banner{
   background-color: red;
-  background: url() no-repeat;
+  background: url(../img/banner6.jpg) no-repeat;
   background-size: cover;
   background-position: 10 55%;
   position: relative;
@@ -108,15 +108,15 @@ nav:after{
   margin-top: 30px;
   margin-bottom: 60px;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 300px;
 }
 
   /formúlario/
 
 #search-form input, #search form select{
   background-color: #fff;
-  border-radius: 30px;
-  border-color: #d6cfcf8a;
+  border-radius: 5px;
+  border-color: transparent;
   padding: 10px 20px;
   font-size: 18px;
   margin: 0 10px;
@@ -127,7 +127,7 @@ nav:after{
   text-transform: uppercase;
   color: #FFF;
   cursor: pointer;
-  transition: 0.2s;
+  transition: 0.5s;
 }
 
 #search-form input[type=submit]:hover{
