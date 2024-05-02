@@ -1,9 +1,9 @@
-/reset/
+/*reset*/
 body{
   margin: 0;
 }
 
-/geal/
+/*geral*/
 html {
   font-family: "Open Sans", sans-serif;
 }
@@ -18,7 +18,7 @@ h1,h2,h3,h4,h5,p,span{
   width: 100%;
 }
 
-/hader/
+/*hader*/
 header{
   position:relative;
   top:0;
@@ -26,7 +26,7 @@ header{
   width: 100%;
 }
 
-/navbar/
+/*navbar*/
 nav{
   position: fixed;
   top: 0;
@@ -85,7 +85,7 @@ nav:after{
   background-color: red;
   background: url(../img/banner6.jpg) no-repeat;
   background-size: cover;
-  background-position: 10 55%;
+  background-position: 0 55%;
   position: relative;
   margin-top: 100px;
 }
