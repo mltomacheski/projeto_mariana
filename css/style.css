@@ -53,7 +53,7 @@ nav:after{
 
 #logo{
   width: 105px;
-  height: 103px;
+  height: 100px;
   margin-top: 0px;
 }
 
@@ -77,7 +77,7 @@ nav:after{
 }
 
 .nav-container li a:hover{
-  color: #11366d;
+  color: rgb(24, 79, 161);
 }
 
 /*banner*/
@@ -100,6 +100,7 @@ nav:after{
   text-align: center;
 }
 
+
 #search-form h1{
   font-size: 40px;
 }
@@ -111,7 +112,7 @@ nav:after{
   font-weight: 300px;
 }
 
-  /formúlario/
+ /*formúlario*/
 
 #search-form input, #search form select{
   background-color: #fff;
@@ -121,6 +122,12 @@ nav:after{
   font-size: 18px;
   margin: 0 10px;
 }
+
+/**======================*/
+
+
+
+ 
 
 #search-form input[type=submit]{
   background-color: #2e68b9;
